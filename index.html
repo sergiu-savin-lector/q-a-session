@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-  </head>
-  <body>
-    <h1>Test update</h1>
-    <h2>Another line</h2>
-  </body>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Property inhertance -->
+    <div class="test-inhertance">
+        Acest font va avea dimensiunea de 32px
+        <p class="child-paragraph"> Acest font va avea dimensiunea de 16 px</p>
+    </div>
+
+    <!-- Positioning -->
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box second-box">2</div>
+        <div class="box">3</div>
+        <div class="box fourth-box">4</div>
+        <div class="box">5</div>
+    </div>
+    <div class="page">
+        <div class="page-item left"></div>
+        <div class="page-item center"></div>
+        <div class="page-item right"></div>
+    </div>
+
+    <!-- % vs vw or vh -->
+    <div class="responsive-box">
+        <div class="responsive-box-child"></div>
+    </div>
+
+    <!-- Em responsive unit test -->
+    <div class="parent-box">
+        <div class="parent-box-child"></div>
+    </div>
+
+    <!-- Demo placement -->
+   <div class="flexbox-container-for-cards">
+    <div class="container-for-image">
+        <img src="diagram.svg" alt="">
+    </div>
+    <div class="container-for-image">
+        <img src="diagram.svg" alt="">
+    </div>
+    <div class="container-for-image">
+        <img src="diagram.svg" alt="">
+    </div>
+   </div>
+</body>
+
 </html>
